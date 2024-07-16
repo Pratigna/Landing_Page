@@ -1,0 +1,143 @@
+/*start services*/
+.npay__services {
+    display: flex;
+    flex-direction: column;    
+}
+  
+.npay__services-heading {
+    width: 100%;
+    text-align: left;
+  
+    margin-bottom: 5rem;
+}
+  
+.npay__services-heading h1 {
+    font-size: 44px;
+    line-height: 60px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    color: white;
+}
+.npay__services-heading h2 {
+    font-size: 30px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    color:#35fdf0d3;
+}
+.npay__services-container {
+    display: flex;
+    flex-direction: row;
+}
+  
+  
+  
+.npay__services-container_groupB {
+    flex: 1;
+  
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+  
+.npay__services-container_article {
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+    border-radius: 5px;
+}
+  
+.npay__services-container_article:hover{
+    cursor: pointer;
+    background:radial-gradient(circle at 3% 25%, rgb(12, 45, 80) 0%, rgb(12, 34, 67) 25%) ;
+}
+  
+  
+  
+  
+.npay__services-container_article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    height: 100%;
+}
+  
+.npay__services-container_article-content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #35fdf0d3;
+}
+  
+.npay__services-container_article-content h3 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30.30px;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+  
+.npay__services-container_article-content h1 {
+    font-family: var(--font-family);
+    font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.30px;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.npay__services-container_article-content p:last-child {
+    cursor: pointer;
+}
+  
+@media screen and (max-width: 990px) {
+    .npay__services-container {
+      flex-direction: column-reverse;
+    }
+  
+  
+    
+  
+    .npay__services-container_article  {
+       width: 48%;
+    }
+  
+    .npay__services-container_article-image {
+        height: 250px;
+    }
+}
+  
+@media screen and (max-width: 700px) {
+    .npay__services-container_groupB {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .npay__services-container_article  {
+       width: 100%;
+    }
+  
+    .npay__services-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+  
+@media screen and (max-width: 550px) {
+    .npay__services-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+  
+    .npay__services-container_article-content h3 {
+      font-size: 18px;
+      line-height: 25px;
+  }
+  
+}
+  /*end services*/
