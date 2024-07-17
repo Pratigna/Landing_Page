@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexPay</title>
+    <link href="css/Landing_page.css" rel="stylesheet">
+    
+
+
+
+
+</head>
+<body>
+  <div class="App">
+
+    <!--Home section-->
+    <div class="background">
+      <nav>
+        <div class="npay__navbar-links">
+
+          <div class="npay__navbar-links_logo">
+            <img src="Assets/Logo.png" />
+          </div>
+
+          <div class="npay__navbar-links_container">
+            <p><a href="#home">Home</a></p>
+            <p><a href="#about"></a>About</p>
+            <p><a href="#services">Services</a></p>
+            <p><a href="#features">Portfolio</a></p>
+            <p><a href="#footer">Contact</a></p>
+          </div>
+
+        </div>
+
+        <div class="npay__navbar-sign">
+          <button type="button">Sign up</button>
+          <img id="light-mode-toggle"  class="light-mode-button" onclick="toggleLightMode()" src="Assets/light_mode.svg">
+        </div>
+
+        <div class="npay__navbar-menu">
+
+          <div id="menu-icon" onclick="toggleMenu()">
+            <img id="menu-open" src="Assets/menu-open.svg">
+            <img id="menu-close" src="Assets/menu-close.svg">   
+          </div>
+                    
+          <div class="npay__navbar-menu_container scale-up-center">
+
+            <div class="npay__navbar-menu_container-links">
+              <p><a href="#home">Home</a></p>
+              <p><a href="#about">About</a></p>
+              <p><a href="#services"></a>Services</p>
+              <p><a href="#features">Portfolio</a></p>
+              <p><a href="#footer">Contact</a></p>
+            </div>
+
+            <div class="npay__navbar-menu_container-links-sign">
+              <button type="button">Sign up</button>
+              <img id="light-mode-toggle" class="light-mode-button" onclick="toggleLightMode()" src="Assets/light_mode.svg">
+            </div>
+
+          </div>
+                    
+        </div>
+
+      </nav>
+      <header>
+
+        <div class="npay__header section__padding" id="home">
+
+          <div class="npay__header-content">
+
+            <h1 class="gradient__text">NexPay Easy Payment</h1>
+            <h1 class="highlight">Gateway Solution.</h1>
+            <p>NexPay provides an extensive API for those looking to develop their own payment gateways. Our project aims to offer comprehensive resources and code examples to simplify the integration and development process for new payment solutions.</p>
+            <div class="npay__header-content__input">
+              <button type="button">Get Started</button>
+            </div>
+                
+          </div>
+            
+          <div class="npay__header-image">
+            <img src="Assets/Payment Done.gif" />
+          </div>
+
+        </div>
+
+      </header>
+    </div>
+
+    <!--services section-->
+    <div class="npay__services section__padding reveal  " id="services">
+          <div class="npay__services-heading">
+            <h2 >Our Services </h2>
+            <h1 > Get World Class & Fastest</br >Online Payment Services</h1>
+          </div>
+          <div class="npay__services-container">
+            <div class="npay__services-container_groupB">
+                <div class="npay__services-container_article">
+                    
+                    <div class="npay__services-container_article-content">
+                        <div>
+                          <h1>PAYMENT METHODS</h1>
+                          <h3>We support a wide variety of payment methods including credit/debit cards, net banking, and mobile wallets.</h3>
+                        </div>
+                        <p>Learn More</p>
+                    </div>
+                </div>
+                <div class="npay__services-container_article">
+                    
+                    <div class="npay__services-container_article-content">
+                        <div>
+                            <h1>SAFE & SECURE</h1>
+                            <h3>We prioritize the safety of your data with advanced security features, including tokenization and secure storage</h3>
+                        </div>
+                        <p>Learn More</p>
+                    </div>
+                </div>
+                <div class="npay__services-container_article">
+                    
+                    <div class="npay__services-container_article-content">
+                        <div>
+                            
+                          <h1>Bank API Integration</h1>
+                          <h3>Integrate with various banks and manage transactions seamlessly with our API solutions.</h3>
+                        </div>
+                        <p>Learn More</p>
+                    </div>
+                </div>
+                <div class="npay__services-container_article">
+                    
+                    <div class="npay__services-container_article-content">
+                        <div>
+                          <h1>Process Payment</h1>
+                          <h3>Master the process of handling secure transactions with our detailed guides and examples.</h3>
+                        </div>
+                        <p>Learn More</p>
+                    </div>
+                </div>
+                <div class="npay__services-container_article">
+                    
+                    <div class="npay__services-container_article-content">
+                        <div>
+                          <h1>Transaction Tracking</h1>
+                          <h3>Utilize tokens to track transactions and ensure every payment is properly accounted for.</h3>
+                        </div>
+                        <p>Learn More</p>
+                    </div>
+                </div>
+                <div class="npay__services-container_article">
+                    
+                    <div class="npay__services-container_article-content">
+                        <div>
+                          <h1>Callback and Notifications</h1>
+                          <h3>Implement callback URLs and real-time notifications to update users on transaction statuses.</h3>
+                        </div>
+                        <p>Learn More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About section-->
+    <div class="npay__about section__padding reveal " id="about">
+          <div class="npay__about-image">
+            <img src="Assets/Man Thinking About Payment Method.gif" alt="about" />
+          </div>
+          <div class="npay__about-content">
+            <h4>About Company</h4>
+            <h1 class="gradient__text">Empowering Developers with Payment Gateway Solutions</h1>
+            <p>NexPay aims to bridge the knowledge gap in payment gateway development by providing clear, concise, and comprehensive resources. Our goal is to assist developers in creating robust and secure payment systems with ease.</p>
+            
+
+          </div>
+    </div>
+
+    <!--features section-->
+    <div class="npay__features section__padding reveal" id="features">
+          <div class="npay__features-image">
+            <img src="Assets/giphy.webp" alt="about" />
+          </div>
+          <div class="npay__features-content">
+            <h4>Our Services</h4>
+            <h1 class="gradient__text">Money Management Made Easy</h1>
+            <div class="features-list">
+              <div class="features-column">
+                <p><img src="Assets/list.svg" alt="Generate Order IDs" class="list-icon"> Generate Order IDs</p>
+                <p><img src="Assets/list.svg" alt="Create Merchant Accounts" class="list-icon"> Create Merchant Accounts</p>
+                <p><img src="Assets/list.svg" alt="Process Payments" class="list-icon"> Process Payments</p>
+              </div>
+              <div class="features-column">
+                <p><img src="Assets/list.svg" alt="Bank API Integration" class="list-icon"> Bank API Integration</p>
+                <p><img src="Assets/list.svg" alt="Transaction Tracking" class="list-icon"> Transaction Tracking</p>
+                <p><img src="Assets/list.svg" alt="Callback and Notifications" class="list-icon"> Callback and Notifications</p>
+              </div>
+            </div>
+            <div class="npay__features-content__input">
+                
+              <button type="button">Get Started</button>
+            </div>
+
+          </div>
+    </div>
+
+    <!--footer section-->
+    <div class="npay__footer section__padding reveal" id="footer">
+      <div class="npay__footer-heading">
+        <h1 class="gradient__text">Join Us in Revolutionizing Payment Processing</h1>
+      </div>
+  
+      <div class="npay__footer-btn">
+        <input type="email" placeholder="Your Email Address" />
+      </div>
+  
+      <div class="npay__footer-links">
+        <div class="npay__footer-links_logo">
+          <img src="Assets/Logo.png" alt="gpt3_logo" />
+          <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        </div>
+        <div class="npay__footer-links_div">
+          <h4>Links</h4>
+          <p>Overons</p>
+          <p>Social Media</p>
+          <p>Counters</p>
+          <p>Contact</p>
+        </div>
+        <div class="npay__footer-links_div">
+          <h4>Company</h4>
+          <p>Terms & Conditions </p>
+          <p>Privacy Policy</p>
+          <p>Contact</p>
+        </div>
+        <div class="npay__footer-links_div">
+          <h4>Get in touch</h4>
+          <p>Crechterwoord K12 182 DK Alknjkcb</p>
+          <p>085-132567</p>
+          <p>info@payme.net</p>
+        </div>
+      </div>
+  
+      <div class="npay__footer-copyright">
+        <p>@2024 NexPay. All rights reserved.</p>
+      </div>
+    </div>
+         
+
+                    
+  </div>
+
+    
+<script src="Landing_page.js"></script>    
+</body>
+</html>
